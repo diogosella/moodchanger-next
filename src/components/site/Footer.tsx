@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { footerCompany, footerNav, footerProjects } from "@/lib/nav";
 import { site } from "@/lib/site";
-import { LinkedIn, Send, YouTube } from "@/components/icons";
+import { Facebook, Instagram, LinkedIn, Reddit, Send, TikTok, YouTube } from "@/components/icons";
 
 export default function Footer() {
   return (
@@ -40,6 +40,18 @@ export default function Footer() {
             </a>
             <a href={site.social.linkedin} target="_blank" rel="noopener" aria-label="LinkedIn">
               <LinkedIn />
+            </a>
+            <a href={site.social.facebook} target="_blank" rel="noopener" aria-label="Facebook">
+              <Facebook />
+            </a>
+            <a href={site.social.instagram} target="_blank" rel="noopener" aria-label="Instagram">
+              <Instagram />
+            </a>
+            <a href={site.social.tiktok} target="_blank" rel="noopener" aria-label="TikTok">
+              <TikTok />
+            </a>
+            <a href={site.social.reddit} target="_blank" rel="noopener" aria-label="Reddit">
+              <Reddit />
             </a>
           </div>
         </div>

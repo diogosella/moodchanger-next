@@ -19,6 +19,7 @@ export default function SmartDevicesPage() {
     <div className="page-wear">
       <Showcase
         items={smartDevices}
+        heading="Smart Devices"
         noun="smart device"
         nounPlural="All smart devices"
         ariaLabel="Smart Devices showcase"

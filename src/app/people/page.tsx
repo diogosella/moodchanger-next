@@ -5,7 +5,7 @@ import { pageMetadata } from "@/lib/metadata";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = pageMetadata({
-  title: `${site.name} for People`,
+  title: `People — ${site.name}`,
   description:
     "Your daily wellbeing is unique to you. MoodChanger.ai uses AI to understand your patterns, support your health conditions, and help you build a better quality of life.",
   path: "/people",
@@ -109,6 +109,9 @@ export default function PeoplePage() {
             patterns, support your health conditions, and help you build a better quality of life,
             one insight at a time.
           </p>
+          <a className="hero-cta reveal" data-delay="280" href={site.demoMailto}>
+            Request a demo
+          </a>
         </div>
 
         <div className="scrollcue">

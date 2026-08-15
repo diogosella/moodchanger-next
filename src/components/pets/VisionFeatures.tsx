@@ -7,19 +7,19 @@ type VisionItem = { title: string; body: string };
 const items: VisionItem[] = [
   {
     title: "Understanding Pet Behavior",
-    body: "AI detects early health and emotional issues before they become serious",
+    body: "AI detects early health and emotional issues before they become serious.",
   },
   {
     title: "Integrated Pet Care",
-    body: "Smart devices work together in one unified system",
+    body: "Smart devices work together in one unified system.",
   },
   {
     title: "Tailored AI Insights",
-    body: "Real-time data creates personalized recommendations for your pet",
+    body: "Real-time data creates personalized recommendations for your pet.",
   },
   {
     title: "Connected Thriving",
-    body: "Humans and pets benefit from shared wellness technology",
+    body: "Humans and pets benefit from shared wellness technology.",
   },
 ];
 

@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/metadata";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = pageMetadata({
-  title: `Wearables, ${site.name}`,
+  title: `Wearables — ${site.name}`,
   description:
     "Twelve MoodChanger.ai wearables — smart glasses, EEG hardware, rings, insoles, exoskeletons and more — each paired with CAIPO for real-time insight into focus, recovery and wellbeing.",
   path: "/wearables",
@@ -19,6 +19,7 @@ export default function WearablesPage() {
     <div className="page-wear">
       <Showcase
         items={wearables}
+        heading="Wearables"
         noun="wearable"
         nounPlural="All wearables"
         ariaLabel="Wearables showcase"

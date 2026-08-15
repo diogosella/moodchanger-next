@@ -17,13 +17,13 @@ export const wearables: ShowcaseItem[] = [
     capabilities: [
       { icon: "<path d=\"M12 3a3 3 0 0 1 3 3v5a3 3 0 0 1-6 0V6a3 3 0 0 1 3-3z\"/><path d=\"M5 11a7 7 0 0 0 14 0M12 18v3\"/>", title: "Voice Commands", body: "Control your world hands-free" },
       { icon: "<path d=\"m8 7-5 5 5 5M16 7l5 5-5 5\"/>", title: "Developer Friendly", body: "Open-source platform" },
-      { icon: "<path d=\"m12 3 9 5-9 5-9-5 9-5z\"/><path d=\"m3 13 9 5 9-5\"/>", title: "Mixed reality", body: "Seamless digital overlays" },
+      { icon: "<path d=\"m12 3 9 5-9 5-9-5 9-5z\"/><path d=\"m3 13 9 5 9-5\"/>", title: "Mixed Reality", body: "Seamless digital overlays" },
     ],
     applications: [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Hands-free access to patient data for surgeons or medical staff." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Real-time performance stats, navigation, or tactical insights during games." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Augmented reality (AR) overlays for workflow management or multitasking." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Immersive experiences or calming environments projected through AR to influence emotional states." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Immersive experiences or calming environments projected through AR to influence emotional states." },
     ],
   },
   {
@@ -47,7 +47,7 @@ export const wearables: ShowcaseItem[] = [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Use in neurological assessments, mental health therapies." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Brainwave analysis to improve performance through mental training." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Enhancing concentration and cognitive efficiency based on real-time feedback." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Targeted audio stimulation or biofeedback for mood improvement." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Targeted audio stimulation or biofeedback for mood improvement." },
     ],
   },
   {
@@ -71,7 +71,7 @@ export const wearables: ShowcaseItem[] = [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Monitoring vital signs and sleep patterns." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Track activity, heart rate and movement patterns." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Quick gesture-based controls, notifications, and more." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Vibrations for stress management or mood alerts." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Vibrations for stress management or mood alerts." },
     ],
   },
   {
@@ -95,7 +95,7 @@ export const wearables: ShowcaseItem[] = [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Support mental health assessments and personalized therapy." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Enhance focus and performance with neurofeedback and mindfulness exercises." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Improve focus and reduce stress through real-time feedback." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Promote relaxation and emotional balance with biofeedback." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Promote relaxation and emotional balance with biofeedback." },
     ],
   },
   {
@@ -119,7 +119,7 @@ export const wearables: ShowcaseItem[] = [
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Movement tracking, running technique monitoring, and injury prevention." },
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Motion monitoring for elderly patients or people in physical therapy." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Posture tracking or movement efficiency for reducing strain during daily activities." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Gentle reminders to move, combined with biofeedback, to uplift energy levels or manage fatigue." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Gentle reminders to move, combined with biofeedback, to uplift energy levels or manage fatigue." },
     ],
   },
   {
@@ -143,7 +143,7 @@ export const wearables: ShowcaseItem[] = [
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Movement tracking, running technique monitoring, and injury prevention." },
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Motion monitoring for elderly patients or people in physical therapy." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Posture tracking or movement efficiency for reducing strain during daily activities." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Gentle reminders to move, combined with biofeedback, to uplift energy levels or manage fatigue." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Gentle reminders to move, combined with biofeedback, to uplift energy levels or manage fatigue." },
     ],
   },
   {
@@ -167,7 +167,7 @@ export const wearables: ShowcaseItem[] = [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Continuous health monitoring." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Heart rate monitoring, GPS tracking, and performance analytics." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Task management, reminders, and communication control on the go." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Stress tracking, guided breathing exercises, and sleep improvement." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Stress tracking, guided breathing exercises, and sleep improvement." },
     ],
   },
   {
@@ -191,7 +191,7 @@ export const wearables: ShowcaseItem[] = [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Assistance for patients with mobility impairments or in physical rehabilitation." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Enhancing physical abilities for rehabilitation training or performance enhancement." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Reducing physical strain in industrial or manual labor tasks." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Improved mobility and reduced physical stress can positively impact mental health and well-being." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Improved mobility and reduced physical stress can positively impact mental health and well-being." },
     ],
   },
   {
@@ -215,7 +215,7 @@ export const wearables: ShowcaseItem[] = [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Rehabilitation for hand mobility, stroke recovery, or motor skill training." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Motion tracking for sports like golf or boxing to enhance training." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Gesture controls for seamless device navigation." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Biofeedback through touch, vibration feedback, or temperature regulation to influence mood." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Biofeedback through touch, vibration feedback, or temperature regulation to influence mood." },
     ],
   },
   {
@@ -239,7 +239,7 @@ export const wearables: ShowcaseItem[] = [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Continuous monitoring of vital signs, particularly in patients with heart or respiratory conditions." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Tracks heart rate, breathing, and movement for in-depth performance insights." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Posture correction and physical activity tracking." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Real-time monitoring of stress levels, providing insights into emotional well-being." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Real-time monitoring of stress levels, providing insights into emotional well-being." },
     ],
   },
   {
@@ -263,7 +263,7 @@ export const wearables: ShowcaseItem[] = [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Assesses body composition for health monitoring." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Tracks body measurements for fitness progress." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Motivates with visual progress tracking." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Enhances self-image with body change feedback." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Enhances self-image with body change feedback." },
     ],
   },
   {
@@ -287,7 +287,7 @@ export const wearables: ShowcaseItem[] = [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Support weight management and rehabilitation with detailed body tracking." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Monitor body measurements to improve fitness and optimize training plans." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Enhance workplace comfort with posture and movement analysis." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Boost confidence and motivation with progress visualization." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Boost confidence and motivation with progress visualization." },
     ],
   },
 ];

@@ -138,19 +138,17 @@
 .page-home .how-panel .tag .dot{width:6px; height:6px; border-radius:50%; background:var(--yellow)}
 
 .page-home .how-tabs{margin-top:clamp(22px,2.6vw,32px); display:grid; grid-template-columns:repeat(3,1fr); gap:clamp(22px,3.5vw,58px)}
-.page-home .how-tab{position:relative; cursor:pointer; padding-top:24px; border-top:2px solid var(--line-2); transition:border-color .4s var(--ease)}
+.page-home .how-tab{position:relative; cursor:pointer; padding-top:24px; border-top:2px solid var(--line-2); transition:border-color .4s var(--ease), opacity .4s var(--ease); opacity:.55}
 .page-home .how-tab::after{content:""; position:absolute; top:-2px; left:0; height:2px; width:100%; background:var(--yellow); transform:scaleX(0); transform-origin:left; transition:transform .55s var(--ease)}
 .page-home .how-tab.active::after{transform:scaleX(1)}
-.page-home .how-tab h3{font-size:clamp(1.3rem,2.1vw,1.75rem); font-weight:600; letter-spacing:-.02em; color:var(--text-dim); transition:color .4s}
+.page-home .how-tab.active{opacity:1}
+.page-home .how-tab h3{font-size:clamp(1.3rem,2.1vw,1.75rem); font-weight:600; letter-spacing:-.02em; color:var(--text); transition:color .4s}
 .page-home .how-tab.active h3{color:var(--text)}
-.page-home .how-tab p{margin-top:13px; color:var(--text-dim); font-size:1.04rem; line-height:1.6; transition:color .4s; max-width:42ch; min-height:5.4em}
+.page-home .how-tab p{margin-top:13px; color:var(--text-muted); font-size:1.04rem; line-height:1.6; transition:color .4s; max-width:42ch; min-height:5.4em}
 .page-home .how-tab.active p{color:var(--text-muted)}
-.page-home .how-tab .explore{margin-top:76px; display:inline-flex; align-items:center; gap:8px; color:#0a1116; background:var(--yellow); font-weight:600; font-size:.94rem; opacity:.4; padding:10px 18px; border-radius:999px; transition:gap .3s var(--ease), transform .3s var(--ease), box-shadow .3s var(--ease), opacity .4s var(--ease)}
-.page-home .how-tab.active .explore{opacity:1}
+.page-home .how-tab .explore{margin-top:76px; display:inline-flex; align-items:center; gap:8px; color:#0a1116; background:var(--yellow); font-weight:600; font-size:.94rem; padding:10px 18px; border-radius:999px; transition:gap .3s var(--ease), transform .3s var(--ease), box-shadow .3s var(--ease)}
 .page-home .how-tab .explore svg{stroke:#0a1116; width:16px; height:16px}
-.page-home .how-tab:hover .explore{transform:translateY(-2px); box-shadow:0 12px 26px -12px rgba(253,224,53,.7)}
-.page-home .how-tab.active .explore{opacity:1}
-.page-home .how-tab:hover .explore{gap:15px}
+.page-home .how-tab:hover .explore{transform:translateY(-2px); box-shadow:0 12px 26px -12px rgba(253,224,53,.7); gap:15px}
 .page-home .how-tab .explore svg{width:17px; height:17px}
 /* keep all three tabs' Explore buttons on one baseline */
 .page-home .how-tab{display:flex; flex-direction:column}

@@ -14,37 +14,37 @@ const devices: Device[] = [
   {
     key: "collar",
     name: "Smart Communication Collar",
-    desc: "Tracks health, vocalizations, hazards, and location with GPS and health metrics powered by AI",
+    desc: "Tracks health, vocalizations, hazards, and location with GPS and health metrics powered by AI.",
     tags: ["Vocalization analysis", "GPS tracking", "Hazard detection"],
   },
   {
     key: "feeder",
     name: "Smart Feeder",
-    desc: "Portion control with camera monitoring, facial recognition, and food freshness tracking",
+    desc: "Portion control with camera monitoring, facial recognition, and food freshness tracking.",
     tags: ["Automated portions", "Pet recognition", "Freshness alerts"],
   },
   {
     key: "water",
     name: "Water Tracker",
-    desc: "Monitors hydration levels with smart reminders and usage patterns for optimal pet health",
+    desc: "Monitors hydration levels with smart reminders and usage patterns for optimal pet health.",
     tags: ["Hydration tracking", "Smart alerts", "Pattern analysis"],
   },
   {
     key: "litter",
     name: "Smart Litter Box",
-    desc: "Weight, motion, odor, and temperature sensors provide early health detection and automatic hygiene",
+    desc: "Weight, motion, odor, and temperature sensors provide early health detection and automatic hygiene.",
     tags: ["Health alerts", "Auto-cleaning", "Behavior monitoring"],
   },
   {
     key: "calming",
     name: "Calming System",
-    desc: "Smart noise-canceling and calming music that adapts to your pet’s stress levels",
+    desc: "Smart noise-canceling and calming music that adapts to your pet’s stress levels.",
     tags: ["Adaptive audio", "Stress detection", "Anxiety reduction"],
   },
   {
     key: "robots",
     name: "Interactive Robots",
-    desc: "Adaptive play sessions that keep pets active with cognitive stimulation and activity tracking",
+    desc: "Adaptive play sessions that keep pets active with cognitive stimulation and activity tracking.",
     tags: ["Custom play plans", "Mental stimulation", "Training tracking"],
   },
 ];

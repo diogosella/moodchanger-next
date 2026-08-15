@@ -65,9 +65,6 @@
 /* controls cluster (bottom-right) */
 .page-wear .show-controls{position:absolute; z-index:4; right:max(4vw,calc(50vw - var(--maxw)/2)); bottom:clamp(96px,13vh,150px);
   display:flex; align-items:center; gap:16px}
-.page-wear .show-count{font-size:.92rem; font-weight:600; letter-spacing:.12em; color:rgba(255,255,255,.85); min-width:78px; text-align:right}
-.page-wear .show-count b{color:var(--yellow); font-size:1.6rem; font-weight:600; letter-spacing:-.02em}
-.page-wear .show-count .sep{color:rgba(255,255,255,.4); margin:0 4px}
 .page-wear .sbtn{width:58px; height:58px; border-radius:50%; display:grid; place-items:center; cursor:pointer; background:rgba(255,255,255,.08);
   border:1px solid rgba(255,255,255,.24); color:#fff; transition:.3s var(--ease)}
 .page-wear .sbtn:hover{background:rgba(255,255,255,.16); border-color:#fff}
@@ -144,7 +141,7 @@
   box-shadow:0 26px 54px -36px rgba(13,36,48,.45)}
 .page-wear .wear-tagline::before{content:""; flex:none; width:10px; height:10px; border-radius:50%; background:var(--yellow)}
 .page-wear .wear-tagline .ar{color:inherit; font-weight:700; padding:0 .3em; font-size:1.12em; line-height:1}
-.page-wear .wear-tagline .ans{color:var(--yellow-txt); font-weight:700}
+.page-wear .wear-tagline .ans{color:var(--yellow); font-weight:700}
 
 /* section subtitles — bigger + bold */
 .page-wear .wear-block{margin-top:clamp(52px,6vw,88px)}
@@ -203,8 +200,6 @@
   .page-wear .show-content{bottom:120px}
   .page-wear .show-controls{gap:12px}
   .page-wear .sbtn{width:50px; height:50px}
-  .page-wear .show-count{min-width:64px; font-size:.84rem}
-  .page-wear .show-count b{font-size:1.3rem}
   .page-wear .wear-mc{border-radius:20px}
   .page-wear .detail-where .nm{display:none}
 }

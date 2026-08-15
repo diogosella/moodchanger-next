@@ -35,7 +35,7 @@ const panels: Panel[] = [
     key: "pets",
     label: "For Pets",
     blurb:
-      "Notice anxiety, stress, and negative behavior patterns that your pet can not tell you about.",
+      "Notice anxiety, stress, and negative behavior patterns that your pet cannot tell you about.",
     href: "/pets",
     video: "/assets/pets/hero-dog.mp4",
     poster: "/assets/pets/dev-collar.webp",

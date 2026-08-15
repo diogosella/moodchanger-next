@@ -23,7 +23,7 @@ export const smartDevices: ShowcaseItem[] = [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Address inflammation and chronic disease risks." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Improve performance with gut health optimization." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Enhance energy and mental clarity." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Support emotional balance via gut-brain health." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Support emotional balance via gut-brain health." },
     ],
   },
   {
@@ -47,7 +47,7 @@ export const smartDevices: ShowcaseItem[] = [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Monitor weight trends and cardiovascular health." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Track body composition for performance improvements." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Build healthy habits with reminders." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Boost confidence with progress tracking." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Boost confidence with progress tracking." },
     ],
   },
   {
@@ -71,7 +71,7 @@ export const smartDevices: ShowcaseItem[] = [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Support clean water intake." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Stay hydrated during workouts." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Maintain focus with proper hydration." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Boost mood with hydration reminders." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Boost mood with hydration reminders." },
     ],
   },
   {
@@ -95,7 +95,7 @@ export const smartDevices: ShowcaseItem[] = [
       { icon: "<path d=\"M3 12h3.2l1.8 5 3.8-12 2.3 7H21\"/>", title: "Healthcare", body: "Enables research into biomechanics and prosthetic development with precise locomotion analysis." },
       { icon: "<path d=\"M13 2 5 13h6l-1 9 8-12h-6l1-8Z\"/>", title: "Sports", body: "Provides dynamic agility training and testing for robotic and human movement coordination." },
       { icon: "<path d=\"M4 4v16h16M8 14l3-3 3 3 5-6\"/>", title: "Productivity", body: "Supports industrial tasks with autonomous navigation and payload transport in complex environments." },
-      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "MoodChanging", body: "Engages users with interactive robotic demonstrations and entertainment, fostering interest and excitement in robotics." },
+      { icon: "<path d=\"M12 3l1.9 5.6L19 10l-5.1 1.4L12 17l-1.9-5.6L5 10l5.1-1.4Z\"/>", title: "Mood Changing", body: "Engages users with interactive robotic demonstrations and entertainment, fostering interest and excitement in robotics." },
     ],
   },
 ];

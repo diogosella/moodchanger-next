@@ -11,5 +11,9 @@ export const site = {
   social: {
     youtube: "https://www.youtube.com/@flolabsinnovation",
     linkedin: "https://www.linkedin.com/company/flolabs-innovation/",
+    facebook: "https://www.facebook.com/people/Flo-Labs-RD/61572285432918/",
+    instagram: "https://www.instagram.com/flolabsinnovations/",
+    tiktok: "https://www.tiktok.com/@flomadlabs",
+    reddit: "https://www.reddit.com/user/FloLabs_Innovations/",
   },
 } as const;

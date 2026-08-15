@@ -10,8 +10,6 @@ import type { ShowcaseItem } from "@/lib/showcase-types";
 /** Autoplay interval for the full-screen carousel, in ms. */
 const SLIDE_MS = 5200;
 
-const pad = (n: number) => String(n + 1).padStart(2, "0");
-
 /**
  * Full-screen product showcase with a focused detail overlay, shared by
  * /wearables and /smart-devices. Ported from wearables.js.
@@ -22,12 +20,15 @@ const pad = (n: number) => String(n + 1).padStart(2, "0");
  */
 export default function Showcase({
   items,
+  heading,
   noun,
   nounPlural,
   ariaLabel,
   detailLabel,
 }: {
   items: ShowcaseItem[];
+  /** Page-level H1, visually hidden — slide titles stay as H2. */
+  heading: string;
   /** e.g. "wearable" — used in control labels. */
   noun: string;
   /** e.g. "All wearables" — the detail view's back button. */
@@ -175,6 +176,7 @@ export default function Showcase({
           // change between pointerdown and click and open the wrong product
           onPointerDown={() => (paused.current = true)}
         >
+          <h1 className="sr-only">{heading}</h1>
           <div className="show-track">
             {items.map((item, i) => (
               <div
@@ -205,11 +207,6 @@ export default function Showcase({
           </div>
 
           <div className="show-controls">
-            <span className="show-count">
-              <b className="cur">{pad(index)}</b>
-              <span className="sep">/</span>
-              {count}
-            </span>
             <button
               className="sbtn prev"
               type="button"

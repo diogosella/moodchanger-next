@@ -5,7 +5,6 @@ import { site } from "@/lib/site";
 import Header from "@/components/site/Header";
 import Footer from "@/components/site/Footer";
 import MotionLayer from "@/components/site/MotionLayer";
-import ScrollProgress from "@/components/site/ScrollProgress";
 import ToTop from "@/components/site/ToTop";
 import { THEME_KEY } from "@/lib/theme";
 
@@ -58,7 +57,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" data-theme="light" className={schibsted.variable} suppressHydrationWarning>
       <body id="top">
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-        <ScrollProgress />
         <Header />
         {children}
         <Footer />
